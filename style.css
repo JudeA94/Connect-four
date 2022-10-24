@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.cell {
+  background-color: blue;
+}
+
+.redCircle {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.yellowCircle {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: repeat(7, 100px);
+  grid-template-rows: repeat(6, 100px);
+  margin: auto;
+  position: relative;
+  width: 920px;
+  margin-top: 25px;
+  gap: 10px;
+}
+
+.cell:hover {
+  background-color: cornflowerblue;
+}
+
+.redwin {
+  position: absolute;
+  margin-left: -140px;
+  margin-top: 50px;
+  width: 1200px;
+  height: 200px;
+  background-color: red;
+  opacity: 85%;
+}
+
+.yelwin {
+  position: absolute;
+  margin-left: -140px;
+  margin-top: 50px;
+  width: 1200px;
+  height: 200px;
+  background-color: yellow;
+  opacity: 85%;
+}
+
+.redwin h1 {
+  color: black;
+  text-align: center;
+  font-size: 100px;
+  line-height: 200px;
+}
+
+.yelwin h1 {
+  color: black;
+  text-align: center;
+  font-size: 100px;
+  line-height: 200px;
+}
+
+.drawBanner {
+  position: absolute;
+  margin-left: -140px;
+  margin-top: 50px;
+  width: 1200px;
+  height: 200px;
+  background-color: grey;
+  opacity: 85%;
+}
+
+.drawBanner h1 {
+  color: black;
+  text-align: center;
+  font-size: 100px;
+  line-height: 200px;
+}
+
+.scoreboard {
+  margin: 20px;
+  color: black;
+}
+
+.scoreboard > * {
+  margin: 20px;
+}
