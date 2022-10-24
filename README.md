@@ -1,3 +1,3 @@
 # Connect-four
 Created with CodeSandbox
-Made during Boolean UK coding week
+Made referencing code from noughts and crosses from Boolean UK coding week
